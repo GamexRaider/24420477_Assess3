@@ -322,7 +322,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ScaredMonster_0: 2451276192762092524
+      ScaredMonster_1: -8859228513844153284
+      ScaredMonster_2: 1719717884264789116
+      ScaredMonster_3: -7957745147996172063
+      ScaredMonster_4: -8621523849276489113
+      ScaredMonster_5: 8812911699937951341
+      ScaredMonster_6: 54800202209657219
+      ScaredMonster_7: 5593068906100662837
+      ScaredMonster_8: -8244217126152952226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

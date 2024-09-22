@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlueMonster_0: -3122190560870540995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
