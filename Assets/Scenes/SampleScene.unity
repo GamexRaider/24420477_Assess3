@@ -162,7 +162,7 @@ Animator:
   m_GameObject: {fileID: 24327220}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 688cc722514c1ba4d8e17c89470ba7aa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -271,7 +271,7 @@ Animator:
   m_GameObject: {fileID: 277920819}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0e2f5d85e3006a9418edc77969864226, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -347,6 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 391528208}
   - component: {fileID: 391528209}
+  - component: {fileID: 391528210}
   m_Layer: 0
   m_Name: DragonSlayerDown
   m_TagString: Untagged
@@ -423,6 +424,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &391528210
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391528207}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c766a465d1ece348b57eac963b67f34, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &398742792
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +489,7 @@ Animator:
   m_GameObject: {fileID: 398742792}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 688cc722514c1ba4d8e17c89470ba7aa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -628,6 +651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410948555}
   - component: {fileID: 410948556}
+  - component: {fileID: 410948557}
   m_Layer: 0
   m_Name: DragonSlayerRight
   m_TagString: Untagged
@@ -704,6 +728,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &410948557
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410948554}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c766a465d1ece348b57eac963b67f34, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &503825908
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 503825909}
   - component: {fileID: 503825910}
+  - component: {fileID: 503825911}
   m_Layer: 0
   m_Name: DragonSlayerLeft
   m_TagString: Untagged
@@ -729,13 +776,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503825908}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.75983894, w: 0.6501114}
+  m_LocalRotation: {x: 0, y: 0, z: 0.80073136, w: 0.5990236}
   m_LocalPosition: {x: -1.14, y: -0.08, z: 0}
   m_LocalScale: {x: 1.6582999, y: 1.49379, z: -3.48}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1493167415}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 98.9}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 106.4}
 --- !u!212 &503825910
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -790,6 +837,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &503825911
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503825908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c766a465d1ece348b57eac963b67f34, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 598987792}
   - component: {fileID: 598987793}
+  - component: {fileID: 598987794}
   m_Layer: 0
   m_Name: BlueMonster
   m_TagString: Untagged
@@ -972,6 +1042,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &598987794
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598987791}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 00eb2537c79f8de40862d641b6f3e29b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &674697538
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +1074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 674697540}
   - component: {fileID: 674697539}
+  - component: {fileID: 674697541}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -1062,6 +1155,28 @@ Transform:
   - {fileID: 981252545}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &674697541
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674697538}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9386b9ddcdb299b479978fbd620ebefa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &691354890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,7 +1306,7 @@ Animator:
   m_GameObject: {fileID: 730381583}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9386b9ddcdb299b479978fbd620ebefa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1300,7 +1415,7 @@ Animator:
   m_GameObject: {fileID: 798554404}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0e2f5d85e3006a9418edc77969864226, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1376,6 +1491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866025024}
   - component: {fileID: 866025025}
+  - component: {fileID: 866025026}
   m_Layer: 0
   m_Name: GreenMonster
   m_TagString: Untagged
@@ -1456,6 +1572,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &866025026
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866025023}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 688cc722514c1ba4d8e17c89470ba7aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &908518734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921576644}
   - component: {fileID: 921576645}
+  - component: {fileID: 921576646}
   m_Layer: 0
   m_Name: YellowMonster
   m_TagString: Untagged
@@ -1632,6 +1771,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &921576646
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921576643}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0e2f5d85e3006a9418edc77969864226, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &944938905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,7 +1836,7 @@ Animator:
   m_GameObject: {fileID: 944938905}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7b3e07f4c8572574fa2c997c80be4255, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1784,7 +1945,7 @@ Animator:
   m_GameObject: {fileID: 981252544}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9386b9ddcdb299b479978fbd620ebefa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1893,7 +2054,7 @@ Animator:
   m_GameObject: {fileID: 1002875838}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 688cc722514c1ba4d8e17c89470ba7aa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2002,7 +2163,7 @@ Animator:
   m_GameObject: {fileID: 1078367813}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7b3e07f4c8572574fa2c997c80be4255, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2111,7 +2272,7 @@ Animator:
   m_GameObject: {fileID: 1136906433}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9386b9ddcdb299b479978fbd620ebefa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2360,7 +2521,7 @@ Animator:
   m_GameObject: {fileID: 1310004520}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9386b9ddcdb299b479978fbd620ebefa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2415,7 +2576,7 @@ Animator:
   m_GameObject: {fileID: 1326358564}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7b3e07f4c8572574fa2c997c80be4255, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2610,7 +2771,7 @@ Animator:
   m_GameObject: {fileID: 1367677030}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0e2f5d85e3006a9418edc77969864226, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3004,7 +3165,7 @@ Animator:
   m_GameObject: {fileID: 1524416200}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 00eb2537c79f8de40862d641b6f3e29b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3080,6 +3241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1633491923}
   - component: {fileID: 1633491924}
+  - component: {fileID: 1633491925}
   m_Layer: 0
   m_Name: DragonSlayerUp
   m_TagString: Untagged
@@ -3156,6 +3318,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1633491925
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633491922}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c766a465d1ece348b57eac963b67f34, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1636828898
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,7 +3383,7 @@ Animator:
   m_GameObject: {fileID: 1636828898}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 00eb2537c79f8de40862d641b6f3e29b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3454,7 +3638,7 @@ Animator:
   m_GameObject: {fileID: 1846597216}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0e2f5d85e3006a9418edc77969864226, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3563,7 +3747,7 @@ Animator:
   m_GameObject: {fileID: 1862654517}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 00eb2537c79f8de40862d641b6f3e29b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3758,7 +3942,7 @@ Animator:
   m_GameObject: {fileID: 1901462509}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 00eb2537c79f8de40862d641b6f3e29b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3824,6 +4008,115 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1945612483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1945612485}
+  - component: {fileID: 1945612484}
+  - component: {fileID: 1945612486}
+  m_Layer: 0
+  m_Name: DeadGuts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1945612484
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945612483}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 5631896216082549437, guid: 964124643cebea84691618be22779d20, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.38, y: 4.79}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1945612485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945612483}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.1399994, y: 1.9059999, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1945612486
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945612483}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d100ac6b5d35f3419834af67ce1a66b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1974209670
 GameObject:
   m_ObjectHideFlags: 0
@@ -3834,6 +4127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974209671}
   - component: {fileID: 1974209672}
+  - component: {fileID: 1974209673}
   m_Layer: 0
   m_Name: DeadMonster
   m_TagString: Untagged
@@ -3910,6 +4204,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1974209673
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974209670}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 36177707cde5cdd47b9b54890d3713a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1978884209
 GameObject:
   m_ObjectHideFlags: 0
@@ -3953,7 +4269,7 @@ Animator:
   m_GameObject: {fileID: 1978884209}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7b3e07f4c8572574fa2c997c80be4255, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4148,7 +4464,7 @@ Animator:
   m_GameObject: {fileID: 2035965801}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4b0b5c52356ae9245919b39212f13513, type: 2}
+  m_Controller: {fileID: 9100000, guid: 688cc722514c1ba4d8e17c89470ba7aa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4224,6 +4540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095791850}
   - component: {fileID: 2095791851}
+  - component: {fileID: 2095791852}
   m_Layer: 0
   m_Name: ScaredMonster
   m_TagString: Untagged
@@ -4304,6 +4621,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2095791852
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095791849}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7b3e07f4c8572574fa2c997c80be4255, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4316,6 +4655,7 @@ SceneRoots:
   - {fileID: 598987792}
   - {fileID: 866025024}
   - {fileID: 2095791850}
+  - {fileID: 1945612485}
   - {fileID: 1974209671}
   - {fileID: 1219673757}
   - {fileID: 2006386111}
