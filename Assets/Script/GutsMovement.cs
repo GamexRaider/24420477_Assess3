@@ -9,7 +9,8 @@ using UnityEngine.UIElements;
 public class GutsMovement : MonoBehaviour
 {
     [SerializeField] public Tweener tweener;
-
+    public AudioSource audioSource;
+    public AudioClip audioClip;
     public Animator animator;
     //private Transform t;
     private Vector3[] points = new Vector3[4];
@@ -24,7 +25,15 @@ public class GutsMovement : MonoBehaviour
         points[2] = new Vector3(0.14f, -4.73f);
         points[3] = new Vector3(-9.78f, -4.73f);
 
+
         tweener.AddTween(transform, points[0], points[1], 2.5f);
+        //audioSource = tweener.GetComponent<AudioSource>();
+
+            audioSource.clip = audioClip; 
+
+        
+        
+        audioSource.Play();
     }
 
     // Update is called once per frame
@@ -38,6 +47,13 @@ public class GutsMovement : MonoBehaviour
             nextPoint();
 
         } // check to only move if isn't already moving, otherwise the wrong order of sequence will play
+
+        
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            } //fixed walking clip restarting every 2 second
+
 
     }
 
@@ -86,8 +102,14 @@ public class GutsMovement : MonoBehaviour
         {
             animator.SetTrigger("GutsRight");
         }
-            
-            
-            
+
+        //audioSource.Play();
+
+        
     }
 }
+    
+
+
+
+

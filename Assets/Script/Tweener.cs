@@ -50,6 +50,8 @@ public class Tweener : MonoBehaviour
 
     public bool AddTween(Transform target, Vector3 startPos, Vector3 endPos, float duration)
     {
+
+
         if (!TweenExists(target))
         {
             Tween t = new Tween(target, startPos, endPos, Time.time, duration);
