@@ -16540,7 +16540,7 @@ Transform:
   m_GameObject: {fileID: 598987791}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.75, y: 4.540001, z: 0}
+  m_LocalPosition: {x: 12.63, y: -19.35, z: 0}
   m_LocalScale: {x: 0.2308229, y: 0.21448363, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18513,7 +18513,7 @@ Transform:
   m_GameObject: {fileID: 674697538}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.919998, y: 4.710001, z: 0}
+  m_LocalPosition: {x: 12.45, y: -15.78, z: 0}
   m_LocalScale: {x: 0.20851213, y: 0.17533198, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24981,7 +24981,7 @@ Transform:
   m_GameObject: {fileID: 866025023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.849998, y: 4.540001, z: 0}
+  m_LocalPosition: {x: 17.13, y: -19.35, z: 0}
   m_LocalScale: {x: 0.20354678, y: 0.17293282, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27244,7 +27244,7 @@ Transform:
   m_GameObject: {fileID: 921576643}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.31, y: 4.53, z: 0}
+  m_LocalPosition: {x: 17.06, y: -15.960001, z: 0}
   m_LocalScale: {x: 0.20851213, y: 0.17533198, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43632,6 +43632,8 @@ GameObject:
   - component: {fileID: 1493167415}
   - component: {fileID: 1493167414}
   - component: {fileID: 1493167416}
+  - component: {fileID: 1493167417}
+  - component: {fileID: 1493167418}
   m_Layer: 0
   m_Name: Guts
   m_TagString: Untagged
@@ -43702,7 +43704,7 @@ Transform:
   m_GameObject: {fileID: 1493167413}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.19, y: 4.580001, z: 0}
+  m_LocalPosition: {x: -4.86, y: 5.96, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43734,6 +43736,32 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1493167417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493167413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e92b7e7143a9ef4cafe06c4215e2b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweener: {fileID: 1493167418}
+  animator: {fileID: 1493167416}
+--- !u!114 &1493167418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493167413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f857cdff1f88f98469d710336ad75abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1493875152
 GameObject:
   m_ObjectHideFlags: 0
