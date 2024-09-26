@@ -14,6 +14,8 @@ public class GutsMovement : MonoBehaviour
     public Animator animator;
     //private Transform t;
     private Vector3[] points = new Vector3[4];
+
+
     
 
     int currentPointArray = 0; // has to be outside so it dont reset to 0 every time method is called
@@ -26,8 +28,9 @@ public class GutsMovement : MonoBehaviour
         points[3] = new Vector3(-9.78f, -4.73f);
 
 
-        tweener.AddTween(transform, points[0], points[1], 2.5f);
+        //tweener.AddTween(transform, points[0], points[1], 2.5f);
         //audioSource = tweener.GetComponent<AudioSource>();
+        nextPoint();
 
             audioSource.clip = audioClip; 
 
@@ -69,9 +72,13 @@ public class GutsMovement : MonoBehaviour
         }//reset the loop so when the last point is reached, next point will go back to initial point
         Vector3 nextPoint = points[nextPointArray];
 
+        float speed = 4f;
+        float length = Vector3.Distance(currentPoint, nextPoint);
+        float time = length / speed;
+
         playDirection(currentPoint, nextPoint);
 
-        tweener.AddTween(transform, currentPoint, nextPoint, 2.5f);
+        tweener.AddTween(transform, currentPoint, nextPoint, time);
         currentPointArray++;
 
         if (currentPointArray == points.Length)
