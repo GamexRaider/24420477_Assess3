@@ -22,7 +22,7 @@ public class GutsMovement : MonoBehaviour
         points[0] = new Vector3(-9.78f, 8.95f);
         points[1] = new Vector3(0.14f, 8.95f);
         points[2] = new Vector3(0.14f, -4.73f);
-        points[3] = new Vector3(-9.71f, -4.73f);
+        points[3] = new Vector3(-9.78f, -4.73f);
 
         tweener.AddTween(transform, points[0], points[1], 2.5f);
     }
@@ -72,14 +72,14 @@ public class GutsMovement : MonoBehaviour
         animator.ResetTrigger("GutsUp");
         animator.ResetTrigger("GutsLeft");
         animator.ResetTrigger("GutsDown");
-        animator.ResetTrigger("GutsRight");
-        if (nextPoint.y < currentPoint.y && nextPoint.x == currentPoint.x)
+        animator.ResetTrigger("GutsRight"); //fixed animation overlap
+        if (nextPoint.y > currentPoint.y && nextPoint.x == currentPoint.x)
         {
-            animator.SetTrigger("GutsDown");
+            animator.SetTrigger("GutsUp");
         }else if(nextPoint.x < currentPoint.x && nextPoint.y == currentPoint.y)
         {
             animator.SetTrigger("GutsLeft");
-        }else if(nextPoint.y > currentPoint.y && nextPoint.x == currentPoint.x)
+        }else if(nextPoint.y < currentPoint.y && nextPoint.x == currentPoint.x)
         {
             animator.SetTrigger("GutsDown");
         }else if(nextPoint.x > currentPoint.x && nextPoint.y == currentPoint.y)
