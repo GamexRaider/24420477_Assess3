@@ -24,8 +24,8 @@ public class GutsMovement : MonoBehaviour
     {
         points[0] = new Vector3(-9.78f, 8.95f);
         points[1] = new Vector3(0.14f, 8.95f);
-        points[2] = new Vector3(0.14f, -4.73f);
-        points[3] = new Vector3(-9.78f, -4.73f);
+        points[2] = new Vector3(0.14f, 1.05f);
+        points[3] = new Vector3(-9.78f, 1.05f);
 
 
         //tweener.AddTween(transform, points[0], points[1], 2.5f);
